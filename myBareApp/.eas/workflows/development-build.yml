@@ -1,8 +1,10 @@
 name: Development Build
 
 on:
- workflow_dispatch: {}
-      
+  push:
+    branches:
+      - main
+        
 jobs:
   android_build:
     type: build
