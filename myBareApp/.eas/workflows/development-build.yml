@@ -10,7 +10,7 @@ on:
       - main
 
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   android_build:
