@@ -18,6 +18,7 @@
       }
     }
   },
+  //submit is for play store deployment
   "submit": {
     "production": {}
   }
